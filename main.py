@@ -152,7 +152,6 @@ class VideoPlayer(QMainWindow):
         seconds = seconds % 60
         return f"{minutes}:{seconds:02d}"
 
-
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     player = VideoPlayer()
